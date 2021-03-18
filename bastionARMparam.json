@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus"
+        },
+        "resourceGroup": {
+            "value": "aseplab"
+        },
+        "bastionHostName": {
+            "value": "ASEP_Bastion"
+        },
+        "subnetId": {
+            "value": "/subscriptions/4e4dfb53-33b8-499d-a441-0373aa5e523b/resourceGroups/aseplab/providers/Microsoft.Network/virtualNetworks/ASEPNetwork/subnets/AzureBastionSubnet"
+        },
+        "publicIpAddressName": {
+            "value": "ASEPNetwork-ip"
+        },
+        "vnetName": {
+            "value": "ASEPNetwork"
+        }
+    }
+}
